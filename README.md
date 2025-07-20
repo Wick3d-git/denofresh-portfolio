@@ -134,7 +134,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Anthony Abaray**
 - 🐙 GitHub: [@wick3d-git](https://github.com/wick3d-git)
 - 💼 LinkedIn: [anthony-abaray](https://linkedin.com/in/anthony-abaray)
-- 🌐 Portfolio: [wick3dhl.dev](https://.wick3dhl.dev)
+- 🌐 Portfolio: [wick3dhl.dev](https://wick3dhl.dev)
 
 ---
 
