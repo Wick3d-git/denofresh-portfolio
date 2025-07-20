@@ -6,7 +6,7 @@ export default function About() {
     <div class="app-container">
       <ThemeProvider />
       <Sidebar currentPage="/about" />
-      
+
       {/* Main Content */}
       <main class="main-content">
         <div class="terminal-container">

@@ -6,7 +6,7 @@ export default function Resume() {
     <div class="app-container">
       <ThemeProvider />
       <Sidebar currentPage="/resume" />
-      
+
       {/* Main Content */}
       <main class="main-content">
         <div class="terminal-container">
@@ -21,7 +21,9 @@ export default function Resume() {
             {/* Resume Content */}
             <div class="resume">
               <a href="/Resume.pdf" class="download-link">
-                <p class="align-left">Download <i class="fa-solid fa-download"></i></p>
+                <p class="align-left">
+                  Download <i class="fa-solid fa-download"></i>
+                </p>
               </a>
               <p class="align-left">Resume:</p>
               <p>

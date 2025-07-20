@@ -7,7 +7,7 @@ export default function Home() {
     <div class="app-container">
       <ThemeProvider />
       <Sidebar currentPage="/" />
-      
+
       {/* Main Content */}
       <main class="main-content">
         <div class="terminal-container">
