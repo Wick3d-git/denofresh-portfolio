@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with Fresh and Deno, featuring a terminal-inspired design with dark/light theme support.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-fresh.wick3dhl.dev-blue?style=for-the-badge&logo=deno)](https://fresh.wick3dhl.dev)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-fresh.wick3dhl.dev-blue?style=for-the-badge&logo=deno)](https://wick3dhl.dev)
 
 ## 🚀 Technologies Used
 
