@@ -30,7 +30,7 @@ export default function Resume() {
                 <ul>
                   <li>01/2023 - Current</li>
                   <ul class="type2">
-                    <li>Cash Office Associate</li>
+                    <li>Price Accuracy Associate</li>
                     <li>Weis Markets</li>
                   </ul>
                 </ul>
