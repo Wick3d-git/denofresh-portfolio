@@ -28,7 +28,7 @@ export default function Resume() {
               <p class="align-left">Resume:</p>
               <p>
                 <ul>
-                  <li>01/2023 - Current</li>
+                  <li>01/2023 - 08/2025</li>
                   <ul class="type2">
                     <li>Price Accuracy Associate</li>
                     <li>Weis Markets</li>
