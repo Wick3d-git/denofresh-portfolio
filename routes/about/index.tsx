@@ -28,7 +28,7 @@ export default function About() {
               </p>
               <p>
                 My experience includes successfully leading and supervising
-                teams at Weis Markets and Tops Friendly Markets, constantly
+                teams at Sprouts, Weis Markets and Tops Friendly Markets, constantly
                 prioritizing efficiency and customer satisfaction.
               </p>
               <p>
@@ -41,7 +41,7 @@ export default function About() {
                 and Information Assurance and Western Governors University, with
                 an anticipated graduation date of 12/2026.
               </p>
-              <p>Certifications held include CompTIA A+</p>
+              <p>Certifications held include CompTIA A+, CompTIA Net+, and CompTIA Sec+</p>
               <p>
                 Eager to leverage my skills in leadership, problem-solving, and
                 technically advanced and challenging environments.
