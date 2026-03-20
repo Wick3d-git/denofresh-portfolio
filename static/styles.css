@@ -225,7 +225,7 @@ body {
 }
 
 .terminal-content p {
-  margin-bottom: 1em; /* Adds space below each paragraph */
+  margin-bottom: 1em !important; /* Adds space below each paragraph */
 }
 
 .type2 {
@@ -291,9 +291,7 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .homelab,
-  .resume,
-  .about-me {
+  .terminal-content {
     text-align: left;
   }
   .sidebar {
@@ -357,9 +355,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  .homelab,
-  .resume,
-  .about-me {
+  .terminal-content {
     text-align: left;
   }
 
