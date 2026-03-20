@@ -216,6 +216,7 @@ body {
   margin-bottom: 24px;
   line-height: 1.4;
   display: block;
+  grid-column: 1;
 }
 
 .about-me p {
@@ -232,6 +233,7 @@ body {
   margin-bottom: 24px;
   line-height: 1.4;
   display: block;
+  grid-column: 1;
 }
 
 .homelab p {
@@ -253,6 +255,7 @@ body {
   margin-bottom: 24px;
   line-height: 1.4;
   display: block;
+  grid-column: 1;
 }
 
 .resume p {
