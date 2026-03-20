@@ -43,14 +43,14 @@ export default function TypingAnimation() {
       python:
         "Advanced proficiency in Python for automation, data analysis, and web development",
       html5: "Expert knowledge of HTML5 semantic markup and web standards",
-      css3:
-        "Advanced CSS3 skills including Flexbox, Grid, and responsive design",
+      css3: "Advanced CSS3 skills including Flexbox, Grid, and responsive design",
       js: "Proficient in modern JavaScript (ES6+) and framework development",
       linux:
         "Strong Linux/Unix system administration and command-line expertise",
     };
 
-    const info = skillInfo[skill as keyof typeof skillInfo] ||
+    const info =
+      skillInfo[skill as keyof typeof skillInfo] ||
       "Skill information not available";
     console.log(`${skill.toUpperCase()}: ${info}`);
   };
@@ -114,8 +114,9 @@ export default function TypingAnimation() {
         <span class="command">groups Anthony</span>
       </div>
       <div class="output">
-        <span class="groups">College Student, CyberSecurity</span>
+        <span class="groups">Cybersecurity Student, Homelab Admin</span>
       </div>
     </div>
   );
-} 
+}
+

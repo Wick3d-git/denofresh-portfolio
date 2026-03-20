@@ -22,29 +22,27 @@ export default function About() {
             <div class="about-me">
               <p>About Me:</p>
               <p>
-                I'm a highly motivated and detail-oriented individual with a
-                strong foundation in customer service, leadership, and technical
-                proficiency.
+                I'm a senior at Western Governors University pursuing a B.S. in
+                Cybersecurity & Information Assurance, with an expected
+                graduation date of December 2026. I currently hold the CompTIA
+                Trifecta (A+, Network+ and Security+) and am actively building
+                toward a career in IT and cybersecurity.
               </p>
               <p>
-                My experience includes successfully leading and supervising
-                teams at Sprouts, Weis Markets and Tops Friendly Markets, constantly
-                prioritizing efficiency and customer satisfaction.
+                My technical foundation is hands-on and self-paced. I deploy and
+                manage a self-hosted infrastructure running 40 Docker containers
+                across 27 services, with a focus on real-world security
+                practices. Starting with zero-trust network design via
+                Cloudflare Tunnel, DNS management, SSL configuration, and
+                granular access control across all exposed services. Beyond the
+                homelab, I bring experience leading teams, managing data
+                integrity in enterprise inventory systems, and resolving complex
+                issues under pressure.
               </p>
               <p>
-                I possess excellent communication skills, a proven ability to
-                resolve complex issues, and a track record of providing a
-                exceptional customer experience and support network.
-              </p>
-              <p>
-                Currently I am pursuing a Bachelor of Science in Cybersecurity
-                and Information Assurance and Western Governors University, with
-                an anticipated graduation date of 12/2026.
-              </p>
-              <p>Certifications held include CompTIA A+, CompTIA Net+, and CompTIA Sec+</p>
-              <p>
-                Eager to leverage my skills in leadership, problem-solving, and
-                technically advanced and challenging environments.
+                I'm currently seeking entry-level IT and cybersecurity roles. If
+                you have any leads on positions that might be a good fit, feel
+                free to reach out to me on LinkedIn. I would love to connect.
               </p>
             </div>
           </div>
@@ -52,4 +50,5 @@ export default function About() {
       </main>
     </div>
   );
-} 
+}
+

@@ -7,7 +7,6 @@ export default function Resume() {
       <ThemeProvider />
       <Sidebar currentPage="/resume" />
 
-      {/* Main Content */}
       <main class="main-content">
         <div class="terminal-container">
           <div class="terminal-window">
@@ -25,58 +24,70 @@ export default function Resume() {
                   Download <i class="fa-solid fa-download"></i>
                 </p>
               </a>
-              <p class="align-left">Resume:</p>
+
+              {/* Work Experience */}
+              <p class="align-left">Work Experience:</p>
               <p>
                 <ul>
-                  <li>01/2026 - Present</li>
-                  <ul className="type2">
-                    <li>Head Cashier</li>
-                    <li>Sprouts</li>
+                  <li>Jan 2026 – Present</li>
+                  <ul class="type2">
+                    <li>Head Cashier - Sprouts</li>
+                    <li>
+                      Led, trained, and supervised up to 6 cashiers while
+                      resolving POS system errors, cash discrepancies, and
+                      register issues to keep checkout operations running
+                      smoothly.
+                    </li>
                   </ul>
                 </ul>
               </p>
               <p>
                 <ul>
-                  <li>01/2023 - 08/2025</li>
-                  <ul className="type2">
-                    <li>Price Accuracy Associate</li>
-                    <li>Weis Markets</li>
+                  <li>Jan 2023 – Aug 2025</li>
+                  <ul class="type2">
+                    <li>Price Accuracy Associate - Weis Markets</li>
+                    <li>
+                      Maintained data integrity across thousands of SKUs in the
+                      store inventory system, processing weekly price updates,
+                      new item entries, and correcting pricing errors to ensure
+                      system accuracy.
+                    </li>
                   </ul>
                 </ul>
               </p>
               <p>
                 <ul>
-                  <li>10/2021 - 08/2022</li>
-                  <ul className="type2">
-                    <li>Customer Service Lead</li>
-                    <li>Tops Friendly Markets</li>
+                  <li>Sep 2021 – Aug 2022</li>
+                  <ul class="type2">
+                    <li>Customer Service Lead - Tops Friendly Markets</li>
+                    <li>
+                      Led a team of 8–10 customer service representatives
+                      handling escalated calls, returns, and refunds across a
+                      high-volume retail environment.
+                    </li>
                   </ul>
                 </ul>
               </p>
+
+              {/* Education */}
               <p class="align-left">Education:</p>
               <p>
                 <ul>
-                  <li>07/2023 - 12/2026</li>
-                  <ul className="type2">
+                  <li>In Progress — Exp. Dec 2026</li>
+                  <ul class="type2">
                     <li>Bachelor of Science</li>
-                    <li>Cybersecurity and Information Assurance</li>
+                    <li>Cybersecurity & Information Assurance</li>
+                    <li>Western Governors University</li>
                   </ul>
                 </ul>
               </p>
-              <p>
-                <ul>
-                  <li>08/2021 - 06/2022</li>
-                  <ul className="type2">
-                    <li>Regents High School Diploma</li>
-                    <li>Member of the National Honor Society</li>
-                  </ul>
-                </ul>
-              </p>
+
+              {/* Certifications */}
               <p class="align-left">Certifications:</p>
               <p>
                 <ul>
-                  <li>04/2024 - 02/2029</li>
-                  <ul className="type2">
+                  <li>Apr 2024 – Feb 2029</li>
+                  <ul class="type2">
                     <li>CompTIA A+</li>
                     <li>Verification Code: 2HM5803RBJF1QX9P</li>
                   </ul>
@@ -84,19 +95,19 @@ export default function Resume() {
               </p>
               <p>
                 <ul>
-                  <li>12/2025 - 02/2029</li>
-                  <ul className="type2">
-                    <li>CompTIA Net+</li>
+                  <li>Dec 2025 – Feb 2029</li>
+                  <ul class="type2">
+                    <li>CompTIA Network+</li>
                     <li>Verification Code: c3c3d19e3f794c4690773b742ee96d5c</li>
                   </ul>
                 </ul>
               </p>
               <p>
                 <ul>
-                  <li>02/2026 - 02/2029</li>
-                  <ul className="type2">
-                    <li>CompTIA Sec+</li>
-                    <li>Verification Code: 8LF243HY6JE419C9</li>
+                  <li>Feb 2026 – Feb 2029</li>
+                  <ul class="type2">
+                    <li>CompTIA Security+</li>
+                    <li>Verification Code: 76511718cf404b5eb3157e30c498c872</li>
                   </ul>
                 </ul>
               </p>
@@ -106,4 +117,4 @@ export default function Resume() {
       </main>
     </div>
   );
-} 
+}

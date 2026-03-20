@@ -37,6 +37,10 @@ body {
   line-height: 1.6;
 }
 
+.text-muted {
+  opacity: 0.8;
+}
+
 /* App Container */
 .app-container {
   display: flex;
@@ -218,6 +222,22 @@ body {
   margin-bottom: 1em; /* Adds space below each paragraph */
 }
 
+.homelab {
+  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 18px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  line-height: 1.4;
+  display: block;
+}
+
+.homelab p {
+  margin-bottom: 1em; /* Adds space below each paragraph */
+}
+
 .download-link {
   text-decoration: none;
   color: var(--text-primary);
@@ -271,7 +291,9 @@ body {
 .skills-icons i {
   font-size: 42px;
   color: var(--text-primary);
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
 }
 
 .skills-icons i:hover {

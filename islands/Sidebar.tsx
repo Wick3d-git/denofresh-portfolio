@@ -11,13 +11,16 @@ export default function Sidebar({ currentPage }: SidebarProps) {
       case 1: // About
         globalThis.location.href = "/about";
         break;
-      case 2: // Resume
+      case 2: // Homelab
+        globalThis.location.href = "/lab";
+        break;
+      case 3: // Resume
         globalThis.location.href = "/resume";
         break;
-      case 3: // GitHub
+      case 4: // GitHub
         globalThis.open("https://github.com/wick3d-git", "_blank");
         break;
-      case 4: // LinkedIn
+      case 5: // LinkedIn
         globalThis.open("https://linkedin.com/in/anthony-abaray", "_blank");
         break;
     }
@@ -39,8 +42,10 @@ export default function Sidebar({ currentPage }: SidebarProps) {
         return 0;
       case "/about":
         return 1;
-      case "/resume":
+      case "/lab":
         return 2;
+      case "/resume":
+        return 3;
       default:
         return 0;
     }
@@ -70,8 +75,16 @@ export default function Sidebar({ currentPage }: SidebarProps) {
         <button
           type="button"
           class={`nav-icon ${activeIndex === 2 ? "active" : ""}`}
-          title="Resume"
+          title=""
           onClick={() => handleNavigation(2)}
+        >
+          <i class="fas fa-flask"></i>
+        </button>
+        <button
+          type="button"
+          class={`nav-icon ${activeIndex === 3 ? "active" : ""}`}
+          title="Resume"
+          onClick={() => handleNavigation(3)}
         >
           <i class="fas fa-briefcase"></i>
         </button>
@@ -79,7 +92,7 @@ export default function Sidebar({ currentPage }: SidebarProps) {
           type="button"
           class="nav-icon"
           title="GitHub"
-          onClick={() => handleNavigation(3)}
+          onClick={() => handleNavigation(4)}
         >
           <i class="fab fa-github"></i>
         </button>
@@ -87,7 +100,7 @@ export default function Sidebar({ currentPage }: SidebarProps) {
           type="button"
           class="nav-icon"
           title="LinkedIn"
-          onClick={() => handleNavigation(4)}
+          onClick={() => handleNavigation(5)}
         >
           <i class="fab fa-linkedin"></i>
         </button>
@@ -106,3 +119,4 @@ export default function Sidebar({ currentPage }: SidebarProps) {
     </nav>
   );
 }
+
