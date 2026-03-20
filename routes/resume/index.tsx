@@ -18,7 +18,7 @@ export default function Resume() {
             </div>
 
             {/* Resume Content */}
-            <div class="resume">
+            <div class="terminal-content">
               <a href="/Resume-Anthony-Abaray.pdf" class="download-link">
                 <p class="align-left">
                   Download <i class="fa-solid fa-download"></i>

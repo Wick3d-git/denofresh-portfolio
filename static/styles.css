@@ -206,46 +206,12 @@ body {
   font-weight: 400;
 }
 
-.about-me {
-  color: var(--text-primary);
-  font-weight: 400;
-  font-size: 18px;
-  text-align: left;
-  margin-left: 18px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  line-height: 1.4;
-  display: block;
-  grid-column: 1;
-}
-
-.about-me p {
-  margin-bottom: 1em; /* Adds space below each paragraph */
-}
-
-.homelab {
-  color: var(--text-primary);
-  font-weight: 400;
-  font-size: 18px;
-  text-align: left;
-  margin-left: 18px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  line-height: 1.4;
-  display: block;
-  grid-column: 1;
-}
-
-.homelab p {
-  margin-bottom: 1em; /* Adds space below each paragraph */
-}
-
 .download-link {
   text-decoration: none;
   color: var(--text-primary);
 }
 
-.resume {
+.terminal-content {
   color: var(--text-primary);
   font-weight: 400;
   font-size: 18px;
@@ -258,7 +224,7 @@ body {
   grid-column: 1;
 }
 
-.resume p {
+.terminal-content p {
   margin-bottom: 1em; /* Adds space below each paragraph */
 }
 
