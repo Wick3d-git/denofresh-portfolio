@@ -19,7 +19,7 @@ export default function About() {
             </div>
 
             {/* About Me Content */}
-            <div class="terminal-content">
+            <div class="about-me">
               <p>About Me:</p>
               <p>
                 I'm a senior at Western Governors University pursuing a B.S. in

@@ -206,12 +206,7 @@ body {
   font-weight: 400;
 }
 
-.download-link {
-  text-decoration: none;
-  color: var(--text-primary);
-}
-
-.terminal-content {
+.about-me {
   color: var(--text-primary);
   font-weight: 400;
   font-size: 18px;
@@ -224,8 +219,30 @@ body {
   grid-column: 1;
 }
 
-.terminal-content p {
-  margin-bottom: 1em !important; /* Adds space below each paragraph */
+.about-me p {
+  margin-bottom: 1em; /* Adds space below each paragraph */
+}
+
+.download-link {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.resume {
+  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 18px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  line-height: 1.4;
+  display: block;
+  grid-column: 1;
+}
+
+.resume p {
+  margin-bottom: 1em; /* Adds space below each paragraph */
 }
 
 .type2 {
@@ -291,7 +308,9 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .terminal-content {
+  .homelab,
+  .resume,
+  .about-me {
     text-align: left;
   }
   .sidebar {
@@ -355,7 +374,9 @@ body {
 }
 
 @media (max-width: 480px) {
-  .terminal-content {
+  .homelab,
+  .resume,
+  .about-me {
     text-align: left;
   }
 

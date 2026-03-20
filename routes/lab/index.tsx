@@ -19,7 +19,7 @@ export default function About() {
             </div>
 
             {/* Homelab Setup*/}
-            <div class="terminal-content">
+            <div class="resume">
               <p class="align-left">My Homelab Setup:</p>
               <br></br>
               <p>
