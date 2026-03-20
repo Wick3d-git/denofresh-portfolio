@@ -21,6 +21,7 @@ export default function About() {
             {/* Homelab Setup*/}
             <div class="homelab">
               <p class="align-left">My Homelab Setup:</p>
+              <br></br>
               <p>
                 I run a self-hosted homelab on NixOS using Docker Compose,
                 currently managing 40 containers across 27 services. External
@@ -29,6 +30,7 @@ export default function About() {
               </p>
               <p>
                 <ul>
+                  <br></br>
                   <li>External Apps:</li>
                   <ul class="type2">
                     <li>
@@ -84,55 +86,54 @@ export default function About() {
                       <span class="text-muted"> - github replacement</span>
                     </li>
                   </ul>
-                  <p>
-                    <li>Internal Apps</li>
-                    <ul class="type2">
-                      <li>
-                        Affine Notes
-                        <span class="text-muted"> - notion replacement</span>
-                      </li>
-                      <li>
-                        Jellyfin
-                        <span class="text-muted"> - media server</span>
-                      </li>
-                      <li>
-                        Jellyseerr
-                        <span class="text-muted"> - media request manager</span>
-                      </li>
-                      <li>
-                        Prowlarr
-                        <span class="text-muted"> - indexer manager</span>
-                      </li>
-                      <li>
-                        Radarr
-                        <span class="text-muted"> - movie library manager</span>
-                      </li>
-                      <li>
-                        Sonarr
-                        <span class="text-muted"> - tv series manager</span>
-                      </li>
-                      <li>
-                        Lidarr
-                        <span class="text-muted"> - music library manager</span>
-                      </li>
-                      <li>
-                        Invidious
-                        <span class="text-muted"> - Youtube frontend</span>
-                      </li>
-                      <li>
-                        Actual Financial
-                        <span class="text-muted"> - personal budgeting</span>
-                      </li>
-                      <li>
-                        Lazy Librarian
-                        <span class="text-muted"> - book manager</span>
-                      </li>
-                      <li>
-                        Cloudflared
-                        <span class="text-muted"> - secure tunnel daemon</span>
-                      </li>
-                    </ul>
-                  </p>
+                  <br></br>
+                  <li>Internal Apps</li>
+                  <ul class="type2">
+                    <li>
+                      Affine Notes
+                      <span class="text-muted"> - notion replacement</span>
+                    </li>
+                    <li>
+                      Jellyfin
+                      <span class="text-muted"> - media server</span>
+                    </li>
+                    <li>
+                      Jellyseerr
+                      <span class="text-muted"> - media request manager</span>
+                    </li>
+                    <li>
+                      Prowlarr
+                      <span class="text-muted"> - indexer manager</span>
+                    </li>
+                    <li>
+                      Radarr
+                      <span class="text-muted"> - movie library manager</span>
+                    </li>
+                    <li>
+                      Sonarr
+                      <span class="text-muted"> - tv series manager</span>
+                    </li>
+                    <li>
+                      Lidarr
+                      <span class="text-muted"> - music library manager</span>
+                    </li>
+                    <li>
+                      Invidious
+                      <span class="text-muted"> - Youtube frontend</span>
+                    </li>
+                    <li>
+                      Actual Financial
+                      <span class="text-muted"> - personal budgeting</span>
+                    </li>
+                    <li>
+                      Lazy Librarian
+                      <span class="text-muted"> - book manager</span>
+                    </li>
+                    <li>
+                      Cloudflared
+                      <span class="text-muted"> - secure tunnel daemon</span>
+                    </li>
+                  </ul>
                 </ul>
               </p>
             </div>
@@ -142,4 +143,3 @@ export default function About() {
     </div>
   );
 }
-

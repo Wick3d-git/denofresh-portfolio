@@ -325,6 +325,11 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .homelab,
+  .resume,
+  .about-me {
+    text-align: left;
+  }
   .sidebar {
     width: 60px;
     padding: 15px 0;
@@ -386,6 +391,12 @@ body {
 }
 
 @media (max-width: 480px) {
+  .homelab,
+  .resume,
+  .about-me {
+    text-align: left;
+  }
+
   .sidebar {
     width: 50px;
     padding: 10px 0;
